@@ -1,10 +1,22 @@
 
 			#cabecera {
-				background-color: rgb(255, 255, 255); /*Color negro*/
+				background-color: rgb(255, 255, 255,0.5); /*Color negro*/
 				color: #D4AF37; /*Color blanco*/
 				padding-top: 25px;
 				padding-bottom: 25px;
+				position: fixed;
+				height: 40px;
 			}
+
+			#cabecera2 {
+				background-color: rgb(255, 255, 255,0.5); /*Color negro*/
+			
+				padding-top: 25px;
+				padding-bottom: 25px;
+				height: 40px;
+			}
+
+
 
 		.fila {
 			display: flex;
@@ -29,6 +41,7 @@ justify-content: center;
 			display: inline-block;
 position: relative;
 margin: 0 13px 5px ;
+background: none;
 		}
 
 		.columna div::before{

@@ -1,0 +1,102 @@
+
+		* {
+			/*Elimina los márgenes y espaciados predeterminados*/
+			margin: 0;
+			padding: 0;
+			
+		}
+
+		/* -----------------------------
+			Selector de estilo HTML
+			-----------------------------*/
+		body {
+			font-family: monospace; /*Tipo de letra*/
+			line-height: 1.5; /*Interlineado*/
+		}
+
+		h1 {
+			font-size: 30px;
+			text-align: left;
+			padding-bottom: 10px;
+		}
+
+		h2 {
+			font-size: 20px;
+			text-align: right;
+			padding-bottom: 20px;
+		}
+
+		h3 {
+			font-size: 50px;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+
+		h4 {
+			font-size: 25px;
+			text-align: center;
+			padding-bottom: 10px;
+		}
+
+		p {
+			padding-bottom: 10px;
+		}
+
+		/* ------------------------------
+			Selector de estilo ID
+			------------------------------*/
+		#cabecera {
+			background-color: #000; /*Color negro*/
+			color: #D4AF37; /*Color blanco*/
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+
+		#nosotros {
+			background-color: #FFFFFF;
+			font-family: serif;
+		}
+
+		#servicios {
+			background-color: #FFF0C9;
+		}
+
+		#contacto {
+			background-color: #122562;
+			color: #fff;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+
+		/* ------------------------------
+			Selector de estilo CLASS
+			------------------------------*/
+		.fila {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.columna {
+			flex-basis: 0;
+			flex-grow: 1;
+
+			margin-left: 5px;
+			margin-right: 5px;
+
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.espaciado {
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
+
+		.contenedor {
+			max-width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.ajustar_img {
+			width: 100%;
+		}

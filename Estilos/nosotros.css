@@ -45,12 +45,7 @@
 		/* ------------------------------
 			Selector de estilo ID
 			------------------------------*/
-		#cabecera {
-			background-color: #000; /*Color negro*/
-			color: #D4AF37; /*Color blanco*/
-			padding-top: 25px;
-			padding-bottom: 25px;
-		}
+	
 
 		#nosotros {
 			background-color: #FFFFFF;
@@ -70,33 +65,4 @@
 		/* ------------------------------
 			Selector de estilo CLASS
 			------------------------------*/
-		.fila {
-			display: flex;
-			flex-direction: row;
-		}
 
-		.columna {
-			flex-basis: 0;
-			flex-grow: 1;
-
-			margin-left: 5px;
-			margin-right: 5px;
-
-			padding-left: 15px;
-			padding-right: 15px;
-		}
-
-		.espaciado {
-			padding-top: 90px;
-			padding-bottom: 90px;
-		}
-
-		.contenedor {
-			max-width: 90%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.ajustar_img {
-			width: 100%;
-		}

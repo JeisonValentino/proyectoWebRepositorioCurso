@@ -63,3 +63,24 @@
 			Selector de estilo CLASS
 			------------------------------*/
 
+.OrdenarMV{
+
+	display: grid;
+	grid-template-columns: 300px 500px;
+	grid-template-rows: 400px ;
+}
+.contenedorMVText{
+	padding: 10px;
+}
+
+.OrdenarMVflex{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ImagenMV{
+	padding-top: 50px;
+}

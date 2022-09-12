@@ -6,6 +6,8 @@
 				padding-bottom: 25px;
 				position: fixed;
 				height: 40px;
+				z-index: 10;
+				width: 100%;
 			}
 
 			#cabecera2 {
@@ -19,8 +21,8 @@
 
 
 		.fila {
-			display: flex;
-justify-content: center;
+			display: flex !important;
+justify-content: center!important;
 		}
 		.columna2{
 			

@@ -1,0 +1,36 @@
+
+.centrar{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicios{
+
+    display: grid;
+grid-template-columns:400px  400px 400px; 
+
+gap: 10px;
+}
+.servicioshijos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    margin: 0px; 
+    text-transform: none;
+    font-family: 'ProximaNovaSemibold', Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.boton1{
+  
+    font-family: 'ProximaNovaRegular';
+font-size: 18px;
+color: #fff;
+text-transform: none;
+margin: 15px 0px 0px 0px;
+padding: 15px 35px;
+background-color: #008CBA;
+border-color: #007095;
+}

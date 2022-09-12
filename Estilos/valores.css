@@ -1,0 +1,70 @@
+
+
+
+ .contenedorPadreParrafos{
+
+display: grid;
+grid-template-columns:650px  650px ; 
+
+gap: 10px;
+ }
+ .centrarParrafo{
+    background-color: rgb(253, 253, 253);
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+
+ .contenedoresHijosParrafos{
+    font-size: 14px;
+margin: 0px; 
+text-transform: none;
+font-family: 'ProximaNovaSemibold', Arial, Helvetica, sans-serif;
+padding-bottom: 10px;
+ }
+ .contendorj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abc{
+    background-color: rgb(39, 105, 163);
+}
+ .centrar{
+   
+    background-color: aquamarine;
+  
+
+ }
+
+.general{
+    display: grid;
+    grid-template-columns: 950px 0px;
+ 
+}
+.contendorh{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cajapadre{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns:650px  650px ; 
+    
+    gap: 10px;
+
+
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    background-color:antiquewhite;
+}
+  

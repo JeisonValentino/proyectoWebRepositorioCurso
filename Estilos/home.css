@@ -1,0 +1,187 @@
+
+
+.imagenCambiante{
+
+    position:absolute;
+    height: 500px;
+    width: 100%;
+}
+
+.imagenCambiante img{
+  
+    
+    width: 100%;
+    height: 100%;
+}
+.imagenCambiante .letraPresentacion{
+position: relative;
+bottom : 250px;
+color: white;
+left: 100px;
+text-transform: uppercase;
+padding: 15px;
+text-align: left;
+z-index: 1;
+background: rgba(0, 0, 0, 0.6);
+max-width:380px ;
+height: 80px;
+
+
+font-family: 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+}
+.imagenCambiante2{
+   position: relative;
+   
+    z-index: 6;
+    height: 500px;
+}
+
+.ParrafoPresentacion{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  padding-top: 10px;
+
+}
+
+
+
+.ParrafoPresentacion .centrar1{
+    display: block;
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #454545;
+}
+
+
+.centrar{
+    display: block;
+    width: 80%;
+    padding: 5px;
+}
+
+.btnLink{
+
+    font-family: 'ProximaNovaRegular';
+font-size: 15px;
+color: #fff;
+text-transform: none;
+
+padding: 10px 25px;
+cursor: pointer;
+background: #454545;
+border-radius: 1000px;
+border-style: solid;
+border-width: 0;
+border-color: #007095;
+font-weight: normal;
+line-height: normal;
+transition: background-color 300ms ease-out;
+}
+
+.btnLink:hover{
+    background-color: #007095;
+
+}
+
+
+.btnLink1{
+    font-family: 'ProximaNovaRegular';
+    font-size: 18px;
+    color: #fff;
+    text-transform: none;
+    
+    padding: 10px 25px;
+    cursor: pointer;
+    background: #454545;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0;
+    border-color: #007095;
+    font-weight: normal;
+    line-height: normal;
+    transition: background-color 300ms ease-out;
+
+}
+
+
+.btnLink1:hover{
+    background-color: #007095;
+
+}
+
+.ImagenesServicios{
+display: grid;
+grid-template-columns: 320px 320px 320px;
+gap: 10px;
+}
+
+
+.imagenesHijos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: normal;
+ 
+text-align: center;
+}
+
+.imagenesHijos div{
+
+    padding: 5px;
+    margin: 0px;
+    font-family: 'ProximaNovaRegular';
+    font-size: 14px;
+    color: #454545;
+    line-height: 22px;
+    padding-bottom: 20px;
+
+}
+.contenedorServicios{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+flex-direction: column;
+margin-top: 100px;
+}
+.imagenServicios{
+
+ 
+}
+.imagenServicios img{
+    width: 100%;
+    height: 100%;
+}
+.ordenarTitulo{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.contenedorServicios h1{
+
+    padding-bottom: 50px;
+}
+
+ .TituloServicios{
+    color: #454545;
+    margin-bottom: 25px;
+    margin: 0px;
+    margin-bottom: 0px;
+  font-family: 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+  color: #454545;
+  font-weight: normal;
+  text-align: center;
+  font-size: 34px;
+  line-height: 34px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  position: relative;
+}

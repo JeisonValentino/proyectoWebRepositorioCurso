@@ -6,6 +6,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="Captura.ico">
 		<link rel="stylesheet" href="./Estilos/home.css">
 		<link rel="stylesheet" href="./Estilos/footer.css">
+		<link rel="stylesheet" href="/Estilos/tabla.css">
 		<style>
 
 		#home::before{
@@ -22,9 +23,6 @@
 
 		<header id="cabecera">
 			<div class="contenedor">
-
-
-
 
 				<div class="fila">
 					<div class="columna2">
@@ -162,18 +160,51 @@
 								Leer Mas </a></div>
 					
 					</div>
+					<!-- insertar una tabla -->
+					<table class="tabla-info">
+						<!-- Cabecera de la tabla -->
+						<thead>
+							<tr>
+								<th >Tabla Informativa</th>
+							</tr>
+							<tr>
+								<th>Tipo de transporte</th>
+								<th>Detalles</th>
+								<th>Días de Salida</th>
+							</tr>
+						</thead>
+							<!-- Cuerpo de la tabla (datos) -->
+						<tbody>
+							<tr>
+								<td>Transporte General</td>
+								<td>Transporte de mercadería de bajo a intermedio volumen</td>
+								<td>Lunes-Miércoles-Viernes</td>
+							</tr>
+							<tr>
+								<td>Servicios de Escolta</td>
+								<td>Transporte de todo tipo bajo resguardo según el riesgo del objeto</td>
+								<td>Martes-Jueves</td>
+							</tr>
+							<tr>
+								<td>Carga Especializada</td>
+								<td>Transporte de Maquinarias pesadas</td>
+								<td>Viernes-Sábado-Domingo</td>
+							</tr>
+										
+						</tbody>
+					</table>
 				</div>
 				
 			
 		</section>
 
 	</section>
+
 	
-		
 		<div class="cajapadre">
 			<div class="cajahijo">
 				<h5>Enlaces Rápidos</h5>
-				<a href="home.html" >   Home</a> <br>
+				<a href="home.html" > Home</a> <br>
 				<a href="Nosotros.html">Nosotros</a><br>
 				<a href="Valores.html">Valores</a><br>
 				<a href="servicios.html">Servicios</a><br>

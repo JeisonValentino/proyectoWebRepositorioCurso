@@ -7,21 +7,21 @@ display: grid;
 grid-template-columns:650px  650px ; 
 
 gap: 10px;
- }
+ }/*Centrar las columnas*/
  .centrarParrafo{
-    background-color: rgb(253, 253, 253);
+    background-color:#7a94e8;
 display: flex;
 justify-content: center;
 align-items: center;
- }
+ }/* Agregar el color de fondo de los valores y centrarlos */
 
  .contenedoresHijosParrafos{
     font-size: 14px;
 margin: 0px; 
 text-transform: none;
-font-family: 'ProximaNovaSemibold', Arial, Helvetica, sans-serif;
+font-family: 'Roboto', sans-serif;
 padding-bottom: 10px;
- }
+ } /*Ordenar el contenido de los valores y el tipo de letra*/
  .contendorj{
     display: flex;
     justify-content: center;
@@ -29,11 +29,11 @@ padding-bottom: 10px;
 }
 
 .abc{
-    background-color: rgb(39, 105, 163);
+    background-color: #46588e;
 }
  .centrar{
    
-    background-color: aquamarine;
+    background-color: #46588e;
   
 
  }
@@ -52,19 +52,22 @@ padding-bottom: 10px;
 }
 
 .cajapadre{
-    background-color: bisque;
+    background-color:#19233e;
     display: grid;
     grid-template-columns:650px  650px ; 
     
     gap: 10px;
 
-
 }
 
 .a{
+    
     display: flex;
     justify-content: center;
 align-items: center;
-    background-color:antiquewhite;
-}
+    background-color:#000000;
+}/*Centrar y color de la ultima parte de la pag */
   
+.color{
+    background-color: #b6d6ff;/*color del titulo*/
+}

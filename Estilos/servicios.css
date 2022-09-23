@@ -1,18 +1,23 @@
 
-.centrar{
-    background-color: rgb(253, 253, 253);
+.centrar{ 
+    background-color: #b6d6ff;
     display: flex;
     justify-content: center;
     align-items: center;
+} /*   Poder centrar los cuadros de los subtitulos    */
+.b{
+    background-color: #7a94e8; /*color del titulo servicios */
+
 }
 .servicios{
 
     display: grid;
 grid-template-columns:400px  400px 400px; 
 
-gap: 10px;
-}
+gap: 20px;
+}/* Ordenar las filas y columnas*/
 .servicioshijos{
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +25,9 @@ gap: 10px;
     font-size: 14px;
     margin: 0px; 
     text-transform: none;
-    font-family: 'ProximaNovaSemibold', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 10px;
-}
+}/* Centrar el tamaño y la letra */
 .boton1{
   
     font-family: 'ProximaNovaRegular';
@@ -33,4 +38,4 @@ margin: 15px 0px 0px 0px;
 padding: 15px 35px;
 background-color: #008CBA;
 border-color: #007095;
-}
+}/* El boton de los servicios*/

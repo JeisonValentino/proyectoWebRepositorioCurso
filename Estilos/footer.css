@@ -4,16 +4,16 @@
     grid-template-columns:650px  650px ; 
     color: aliceblue;
     gap: 10px;
-background-color: #454545;
+    background-color: #015368;
 }
 
 
 
-.a{
+a{
     color: aliceblue;
     display: flex;
     justify-content: center;
-align-items: center;
-background-color: #454545;
-
+    align-items: center;
+  
+text-decoration: none;
 }

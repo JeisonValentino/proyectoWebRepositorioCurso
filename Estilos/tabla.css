@@ -1,0 +1,54 @@
+
+
+.tabla-info {
+	width: 80%;
+	background-color: #e79b28f8;
+	margin-top: 30px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 5px ;
+
+}
+
+.tabla-info thead tr th {
+
+	background-color: rgb(1, 116, 106);
+	color: #fff;
+	padding: 8px;
+}
+
+.tabla-info thead{
+
+}
+
+.tabla-info thead tr th:last-child {
+text-align: center;
+}
+
+
+.tabla-info tbody tr td {
+	padding: 8px;
+	border-bottom: 1px solid #000;
+}
+
+.tabla-info tbody tr td:last-child {
+
+}
+
+.tablaInformativa {
+
+    margin: 0 auto;
+
+	border: 1px solid #000;
+    border-bottom: 0;
+background-color: rgb(1, 116, 106);
+	color: #fff;
+	padding: 8px;
+
+}
+
+
+

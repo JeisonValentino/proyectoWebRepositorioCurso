@@ -14,20 +14,20 @@
     height: 100%;
 }
 .imagenCambiante .letraPresentacion{
-position: relative;
-bottom : 250px;
-color: white;
-left: 100px;
-text-transform: uppercase;
-padding: 15px;
-text-align: left;
-z-index: 1;
-background: rgba(0, 0, 0, 0.6);
-max-width:380px ;
-height: 80px;
+    position: relative;
+    bottom : 250px;
+    color: white;
+    left: 100px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: left;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    max-width:380px ;
+    height: 80px;
 
 
-font-family: 'ProximaNovaBold', Arial, Helvetica, sans-serif;
+    font-family: 'ProximaNovaBold', Arial, Helvetica, sans-serif;
 }
 .imagenCambiante2{
    position: relative;
@@ -150,10 +150,7 @@ margin: 10px;
 flex-direction: column;
 margin-top: 100px;
 }
-.imagenServicios{
 
- 
-}
 .imagenServicios img{
     width: 100%;
     height: 100%;
@@ -184,4 +181,19 @@ flex-direction: column;
   text-transform: uppercase;
   padding-bottom: 30px;
   position: relative;
+}
+
+
+
+
+
+
+.cajahijo {
+    background-color:#037896;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }

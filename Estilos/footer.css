@@ -9,11 +9,11 @@
 
 
 
-.a{
+a{
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #454545;
-
+  
+text-decoration: none;
 }

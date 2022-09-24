@@ -185,37 +185,6 @@ flex-direction: column;
 
 
 
-.tabla-info {
-	width: 80%;
-	background-color: #e79b28f8;
-	margin-top: 30px;
-	border: 1px solid #000;
-	border-collapse: collapse;
-
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.tabla-info thead tr th {
-	text-align: left;
-	background-color: rgb(1, 116, 106);
-	color: #fff;
-	padding: 8px;
-}
-
-.tabla-info thead tr th:last-child {
-	text-align: right;
-}
-
-
-.tabla-info tbody tr td {
-	padding: 8px;
-	border-bottom: 1px solid #000;
-}
-
-.tabla-info tbody tr td:last-child {
-	text-align: right;
-}
 
 
 
